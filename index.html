@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Paper Scissors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="head-container">
+    <p class="eyebrow">Best of forever</p>
+    <h1 id="heading">Rock Paper Scissors</h1>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="rock" tabindex="0" role="button" aria-label="Play rock">
+      <span class="icon">✊</span>
+      <span class="label">Rock</span>
+    </div>
+    <div class="choice" id="paper" tabindex="0" role="button" aria-label="Play paper">
+      <span class="icon">✋</span>
+      <span class="label">Paper</span>
+    </div>
+    <div class="choice" id="scissors" tabindex="0" role="button" aria-label="Play scissors">
+      <span class="icon">✌️</span>
+      <span class="label">Scissors</span>
+    </div>
+  </div>
+
+  <div class="score-board">
+    <div class="score" id="user-score-box">
+      <p id="user-score">0</p>
+      <p>You</p>
+    </div>
+    <span class="vs">VS</span>
+    <div class="score" id="comp-score-box">
+      <p id="comp-score">0</p>
+      <p>Computer</p>
+    </div>
+  </div>
+
+  <div class="msg-container">
+    <p id="msg">Play your move</p>
+  </div>
+
+  <button class="reset" id="reset-btn">Reset score</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
