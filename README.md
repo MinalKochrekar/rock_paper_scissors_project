@@ -30,7 +30,7 @@ A simple and interactive **Rock Paper Scissors** game built using HTML, CSS, and
 
 ## 📸 Screenshots
 ![Rock paper scissors screenshot]
-(rock paper scissors screen shot.png)
+(./rock paper scissors screen shot.png)
 
 
 ## 👩‍💻 Developer
