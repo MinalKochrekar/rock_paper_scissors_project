@@ -28,11 +28,6 @@ A simple and interactive **Rock Paper Scissors** game built using HTML, CSS, and
    * Paper beats Rock
 4. Your score is updated after each round.
 
-## 📸 Screenshots
-![Rock paper scissors screenshot]
-(./rock paper scissors screen shot.png)
-
-
 ## 👩‍💻 Developer
 
 **Minal Kochrekar**
